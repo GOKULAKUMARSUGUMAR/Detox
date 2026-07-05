@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Detox</string>
+    <string name="accessibility_service_description">Detects the Reels tab in Instagram and the Shorts tab in YouTube and automatically backs you out of them, so you can still use chat, DMs, and regular videos without the endless-scroll feed.</string>
+
+    <string name="status_title">Blocker status</string>
+    <string name="status_off">Off — tap to enable in Accessibility settings</string>
+    <string name="status_on">Active</string>
+    <string name="enable_button">Enable blocker</string>
+
+    <string name="stats_title">This week</string>
+    <string name="stats_today">Blocked today: %1$d</string>
+
+    <string name="schedule_title">Focus schedule</string>
+    <string name="schedule_switch">Only block during scheduled hours</string>
+    <string name="schedule_always_on">Currently: always blocking</string>
+    <string name="schedule_start">Start time</string>
+    <string name="schedule_end">End time</string>
+    <string name="schedule_days">Active days</string>
+</resources>
