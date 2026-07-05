@@ -1,10 +1,10 @@
-<resources>
-    <color name="primary">#4C6EF5</color>
-    <color name="primary_dark">#3B5BDB</color>
-    <color name="background">#F5F6FA</color>
-    <color name="card_background">#FFFFFF</color>
-    <color name="text_primary">#1B1D28</color>
-    <color name="text_secondary">#6B7080</color>
-    <color name="success">#2F9E44</color>
-    <color name="warning">#E8590C</color>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Ensure the parent is exactly this for Material components -->
+    <style name="Theme.DetoxApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Add these if you want a complete Material look -->
+        <item name="android:windowBackground">@color/background</item>
+    </style>
 </resources>
